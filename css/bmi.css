@@ -177,6 +177,7 @@ section {
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+    flex-wrap: wrap;
 
 }
 section .bmi{
@@ -302,8 +303,6 @@ form button:hover{
     font-size: 20px;
 }
 
-
-
 footer {
     display: flex;
     width: 100%;
@@ -380,5 +379,89 @@ footer .quick i {
 
 footer ul li {
     padding: 5px 5px;
+
+}
+
+@media screen and (max-width: 800px) {
+    main h1 {
+        font-size: 150px;
+        font-weight: 700;
+        transform: translateX(none);
+        letter-spacing: none;
+        text-shadow: #b84311bb 2px 5px 1px, #5b5858 4px 7px 3px;
+        transform: translateY(-40%);
+    }
+
+    @keyframes h1 {
+
+        0% {
+            /* margin-bottom: -40px; */
+            font-size: 17px;
+            letter-spacing: 3px;
+        }
+
+        25% {
+            letter-spacing: 1px;
+            font-size: 150px;
+        }
+    }
+
+    main h2 {
+        font-size: 20px;
+        text-shadow: aliceblue 3px 2px 4px, black 10px 2px 5px;
+    }
+
+    section .bmi{
+        width: 100%;
+        transform: translateX(2%);
+    }
+    .bmi .h h3{
+        font-size: 14px;
+        font-weight: 600;
+        transform: translateX(68%);
+    }
+    section p{
+        width: 99%;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    section .calc form{
+        width: 75%;
+        transform: translate(20%);
+    }
+
+    #result{
+        width: 100%;
+        transform: translateY(7%);
+        margin-left: 20px;
+        height: 320px;
+        padding: 10px 5px;
+    }
+
+    #result h2{
+        padding: 5px 2px;
+        margin: 30px 10px ;
+        font-size: 16px;
+    }
+
+    #result h2 span{
+        font-size: 18px;
+    }
+
+        footer {
+            flex-wrap: wrap;
+        }
+
+        footer p{
+            width: 180%;
+        }
+    
+        footer .quick {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            gap: 17px;
+            margin: 0px;
+        }
 
 }

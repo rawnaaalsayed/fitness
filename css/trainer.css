@@ -371,3 +371,77 @@ footer ul li {
     padding: 5px 5px;
 
 }
+
+@media screen and (max-width: 800px) {
+    main h1 {
+        font-size: 105px;
+        font-weight: 700;
+        transform: translateX(none);
+        letter-spacing: none;
+        text-shadow: #b84311bb 2px 5px 1px, #5b5858 4px 7px 3px;
+        transform: translateY(-40%);
+    }
+
+    @keyframes h1 {
+
+        0% {
+            /* margin-bottom: -40px; */
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+
+        25% {
+            letter-spacing: 1px;
+            font-size: 105px;
+        }
+    }
+
+    main h2 {
+        font-size: 18px;
+        text-shadow: aliceblue 3px 2px 4px, black 10px 2px 5px;
+    }
+
+    .side-bar {
+        display: none;
+    }
+
+    .section__header {
+        transform: translateX(70%);
+        font-size: 20px;
+    }
+
+    .trainer__grid {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        transform: translateX(20%);
+    }
+    .trainer__card{
+        width: 60%;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+
+    footer .details .contact {
+        width: 200%;
+    }
+
+    footer p {
+        width: 150%;
+    }
+
+    footer h1 {
+        font-size: 20px;
+    }
+
+    footer .quick {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 17px;
+        margin: 0px;
+    }
+
+}
