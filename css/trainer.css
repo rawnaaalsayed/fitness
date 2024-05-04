@@ -160,7 +160,7 @@ main h1 {
 
     transition-duration: 3s;
     transition-timing-function: 3;
-    animation: h1 13s 1;
+    animation: h1 7s 1;
 }
 
 @keyframes h1 {

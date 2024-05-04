@@ -480,10 +480,10 @@ footer ul li {
         display: none;
     }
 .section__container{
-    transform: translateX(-10%);
+    transform: translateX(-8%);
 }
     .section__header {
-        transform: translateX(90%);
+        transform: translateX(92%);
         font-size: 25px;
     }
 
