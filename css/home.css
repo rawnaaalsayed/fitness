@@ -503,42 +503,29 @@ footer ul li {
     justify-content: center;
    }
 
-/* footer{
-    flex-wrap: wrap;
-}
-footer .quick{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    gap: 17px;
-    margin: 0px;
-}
-footer p{
-    width: 100%;
-} */
 
-  footer {
-      flex-wrap: wrap;
-      padding-left: 20px;
-  }
+   footer {
+       flex-wrap: wrap;
+     
+   }
 
-  footer .details .contact {
-      width: 300%;
-  }
+   footer .details .contact {
+       width: 300%;
+   }
 
-  footer p {
-      width: 100%;
-  }
+   footer p {
+       width: 150%;
+   }
 
-  footer h1 {
-      font-size: 20px;
-  }
+   footer h1 {
+       font-size: 20px;
+   }
 
-  footer .quick {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      gap: 17px;
-      margin: 0px;
-  }
+   footer .quick {
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+       gap: 17px;
+       margin: 0px;
+   }
 }

@@ -396,7 +396,7 @@ footer ul li {
         transform: translateX(none);
         letter-spacing: none;
         text-shadow: #b84311bb 2px 5px 1px, #5b5858 4px 7px 3px;
-        transform: translateY(-40%);
+        transform: translateY(-45%);
     }
 
     @keyframes h1 {
@@ -417,6 +417,7 @@ footer ul li {
         font-size: 15px;
         letter-spacing: 1px;
         text-shadow: aliceblue 3px 2px 4px, black 10px 2px 5px;
+        transform: translateY(-190%);
     }
 
     section .bmi{
@@ -426,7 +427,7 @@ footer ul li {
     .bmi .h h3{
         font-size: 14px;
         font-weight: 600;
-        transform: translateX(120px);
+        transform: translateX(90px);
     }
     section p{
         width: 99%;
@@ -439,7 +440,7 @@ footer ul li {
     }
     .calc form input{
         height: 30px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     #result{
@@ -459,21 +460,28 @@ footer ul li {
     #result h2 span{
         font-size: 18px;
     }
-
-        footer {
-            flex-wrap: wrap;
-        }
-
-        footer p{
-            width: 180%;
-        }
-    
-        footer .quick {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            gap: 17px;
-            margin: 0px;
-        }
+footer {
+ flex-wrap: wrap;
+                 }
+        
+                 footer .details .contact {
+                     width: 300%;
+                 }
+        
+                 footer p {
+                     width: 150%;
+                 }
+        
+                 footer h1 {
+                     font-size: 20px;
+                 }
+        
+                 footer .quick {
+                     display: flex;
+                     flex-direction: row;
+                     width: 100%;
+                     gap: 17px;
+                     margin: 0px;
+                 }
 
 }
