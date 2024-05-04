@@ -410,6 +410,7 @@ footer ul li {
         25% {
             letter-spacing: 1px;
             font-size: 150px;
+        
         }
     }
 
@@ -418,6 +419,7 @@ footer ul li {
         letter-spacing: 1px;
         text-shadow: aliceblue 3px 2px 4px, black 10px 2px 5px;
         transform: translateY(-190%);
+        margin-bottom: 20px;
     }
 
     section .bmi{

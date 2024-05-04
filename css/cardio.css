@@ -479,9 +479,11 @@ footer ul li {
     .side-bar{
         display: none;
     }
-
+.section__container{
+    transform: translateX(-10%);
+}
     .section__header {
-        transform: translateX(100%);
+        transform: translateX(90%);
         font-size: 25px;
     }
 

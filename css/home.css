@@ -506,6 +506,7 @@ footer ul li {
 
    footer {
        flex-wrap: wrap;
+       
      
    }
 
@@ -514,7 +515,7 @@ footer ul li {
    }
 
    footer p {
-       width: 150%;
+       width: 100%;
    }
 
    footer h1 {
