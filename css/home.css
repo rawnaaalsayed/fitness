@@ -409,8 +409,16 @@ footer ul li {
 }
 
 @media screen and (max-width: 800px) {
+    nav {
+            padding-left: 10px;
+            padding-right: 70px;
+        }
+    
+        nav .taps {
+            gap: 7px;
+        }
     main h1{
-        font-size: 100px;
+        font-size: 70px;
        font-weight: 600;
        transform: translateX(none);
        letter-spacing: none;
@@ -427,18 +435,25 @@ footer ul li {
     
             25% {
                 letter-spacing: 1px;
-                font-size: 100px;
+                font-size: 70px;
             }
+        }
+        main h2{
+            font-size: 16px;
+            letter-spacing: 1px;
+            text-shadow: aliceblue 2px 2px 4px, black 10px 2px 5px;
+            transform: translateY(20%);
         }
 
         .service-container .service{
             width: 100%;
             padding: 15px 5px;
+            flex-wrap: wrap;
         
         }
     .service-container .service .service-box {
-        width:50% ;
-        padding: 0px 5px;
+        width:100% ;
+        padding: 10px 5px;
         margin: 5px;
     }
     .service-img img{
@@ -472,14 +487,23 @@ footer ul li {
     .vision img{
         padding-top: 100px;
     }
-
+    
+.member{
+    width: 100%;
+}
+.member .member-info h3{
+    font-size: 17px;
+}
+.member-info p{
+    font-size: 10px;
+}
    .member-container .last{
     transform: translate(0%);
     display: flex;
     justify-content: center;
    }
 
-footer{
+/* footer{
     flex-wrap: wrap;
 }
 footer .quick{
@@ -491,5 +515,30 @@ footer .quick{
 }
 footer p{
     width: 100%;
-}
+} */
+
+  footer {
+      flex-wrap: wrap;
+      padding-left: 20px;
+  }
+
+  footer .details .contact {
+      width: 300%;
+  }
+
+  footer p {
+      width: 100%;
+  }
+
+  footer h1 {
+      font-size: 20px;
+  }
+
+  footer .quick {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      gap: 17px;
+      margin: 0px;
+  }
 }

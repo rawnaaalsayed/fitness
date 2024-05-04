@@ -440,8 +440,16 @@ footer ul li {
 }
 
 @media screen and (max-width: 800px) {
+    nav {
+            padding-left: 10px;
+            padding-right: 70px;
+        }
+    
+        nav .taps {
+            gap: 7px;
+        }
     main h1 {
-        font-size: 80px;
+        font-size: 60px;
         font-weight: 700;
         transform: translateX(none);
         letter-spacing: none;
@@ -459,12 +467,12 @@ footer ul li {
 
         25% {
             letter-spacing: 1px;
-            font-size: 80px;
+            font-size: 60px;
         }
     }
 
     main h2 {
-        font-size: 20px;
+        font-size: 15px;
         text-shadow: aliceblue 3px 2px 4px, black 10px 2px 5px;
     }
 
@@ -489,7 +497,7 @@ footer ul li {
         }
 
         footer .details .contact{
-            width: 200%;
+            width: 300%;
         }
     
         footer p {
