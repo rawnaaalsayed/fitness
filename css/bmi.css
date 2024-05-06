@@ -178,7 +178,7 @@ section {
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 section .bmi{
